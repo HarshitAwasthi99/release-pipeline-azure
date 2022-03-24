@@ -23,7 +23,7 @@ steps:
     containerRegistry: 'myserviceconnection'
     repository: 'mynewimage'
     command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
+    Dockerfile: '**/Dockerfile.dockerfile'
 
 - task: CopyFiles@2
   inputs:
